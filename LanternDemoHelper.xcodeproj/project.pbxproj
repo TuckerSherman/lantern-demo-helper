@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841CE79D1A34415C00378E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CE79C1A34415C00378E78 /* main.m */; };
+		841CE7A01A34415C00378E78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CE79F1A34415C00378E78 /* AppDelegate.m */; };
+		841CE7A31A34415C00378E78 /* LanternDemoHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841CE7A11A34415C00378E78 /* LanternDemoHelper.xcdatamodeld */; };
+		841CE7A61A34415C00378E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CE7A51A34415C00378E78 /* ViewController.m */; };
+		841CE7A91A34415C00378E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841CE7A71A34415C00378E78 /* Main.storyboard */; };
+		841CE7AB1A34415C00378E78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841CE7AA1A34415C00378E78 /* Images.xcassets */; };
+		841CE7AE1A34415C00378E78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841CE7AC1A34415C00378E78 /* LaunchScreen.xib */; };
+		841CE7BA1A34415D00378E78 /* LanternDemoHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841CE7B91A34415D00378E78 /* LanternDemoHelperTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841CE7B41A34415D00378E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841CE78F1A34415A00378E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841CE7961A34415B00378E78;
+			remoteInfo = LanternDemoHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841CE7971A34415B00378E78 /* LanternDemoHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanternDemoHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841CE79B1A34415C00378E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841CE79C1A34415C00378E78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841CE79E1A34415C00378E78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841CE79F1A34415C00378E78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841CE7A21A34415C00378E78 /* LanternDemoHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LanternDemoHelper.xcdatamodel; sourceTree = "<group>"; };
+		841CE7A41A34415C00378E78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841CE7A51A34415C00378E78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841CE7A81A34415C00378E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841CE7AA1A34415C00378E78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		841CE7AD1A34415C00378E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		841CE7B31A34415C00378E78 /* LanternDemoHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanternDemoHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841CE7B81A34415D00378E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841CE7B91A34415D00378E78 /* LanternDemoHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanternDemoHelperTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841CE7941A34415B00378E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CE7B01A34415C00378E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841CE78E1A34415900378E78 = {
+			isa = PBXGroup;
+			children = (
+				841CE7991A34415B00378E78 /* LanternDemoHelper */,
+				841CE7B61A34415D00378E78 /* LanternDemoHelperTests */,
+				841CE7981A34415B00378E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841CE7981A34415B00378E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841CE7971A34415B00378E78 /* LanternDemoHelper.app */,
+				841CE7B31A34415C00378E78 /* LanternDemoHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841CE7991A34415B00378E78 /* LanternDemoHelper */ = {
+			isa = PBXGroup;
+			children = (
+				841CE79E1A34415C00378E78 /* AppDelegate.h */,
+				841CE79F1A34415C00378E78 /* AppDelegate.m */,
+				841CE7A41A34415C00378E78 /* ViewController.h */,
+				841CE7A51A34415C00378E78 /* ViewController.m */,
+				841CE7A71A34415C00378E78 /* Main.storyboard */,
+				841CE7AA1A34415C00378E78 /* Images.xcassets */,
+				841CE7AC1A34415C00378E78 /* LaunchScreen.xib */,
+				841CE7A11A34415C00378E78 /* LanternDemoHelper.xcdatamodeld */,
+				841CE79A1A34415C00378E78 /* Supporting Files */,
+			);
+			path = LanternDemoHelper;
+			sourceTree = "<group>";
+		};
+		841CE79A1A34415C00378E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841CE79B1A34415C00378E78 /* Info.plist */,
+				841CE79C1A34415C00378E78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841CE7B61A34415D00378E78 /* LanternDemoHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				841CE7B91A34415D00378E78 /* LanternDemoHelperTests.m */,
+				841CE7B71A34415D00378E78 /* Supporting Files */,
+			);
+			path = LanternDemoHelperTests;
+			sourceTree = "<group>";
+		};
+		841CE7B71A34415D00378E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841CE7B81A34415D00378E78 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841CE7961A34415B00378E78 /* LanternDemoHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841CE7BD1A34415D00378E78 /* Build configuration list for PBXNativeTarget "LanternDemoHelper" */;
+			buildPhases = (
+				841CE7931A34415B00378E78 /* Sources */,
+				841CE7941A34415B00378E78 /* Frameworks */,
+				841CE7951A34415B00378E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanternDemoHelper;
+			productName = LanternDemoHelper;
+			productReference = 841CE7971A34415B00378E78 /* LanternDemoHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841CE7B21A34415C00378E78 /* LanternDemoHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841CE7C01A34415D00378E78 /* Build configuration list for PBXNativeTarget "LanternDemoHelperTests" */;
+			buildPhases = (
+				841CE7AF1A34415C00378E78 /* Sources */,
+				841CE7B01A34415C00378E78 /* Frameworks */,
+				841CE7B11A34415C00378E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841CE7B51A34415D00378E78 /* PBXTargetDependency */,
+			);
+			name = LanternDemoHelperTests;
+			productName = LanternDemoHelperTests;
+			productReference = 841CE7B31A34415C00378E78 /* LanternDemoHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841CE78F1A34415A00378E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tucker Sherman";
+				TargetAttributes = {
+					841CE7961A34415B00378E78 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					841CE7B21A34415C00378E78 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 841CE7961A34415B00378E78;
+					};
+				};
+			};
+			buildConfigurationList = 841CE7921A34415A00378E78 /* Build configuration list for PBXProject "LanternDemoHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841CE78E1A34415900378E78;
+			productRefGroup = 841CE7981A34415B00378E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841CE7961A34415B00378E78 /* LanternDemoHelper */,
+				841CE7B21A34415C00378E78 /* LanternDemoHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841CE7951A34415B00378E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CE7A91A34415C00378E78 /* Main.storyboard in Resources */,
+				841CE7AE1A34415C00378E78 /* LaunchScreen.xib in Resources */,
+				841CE7AB1A34415C00378E78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CE7B11A34415C00378E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841CE7931A34415B00378E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CE7A31A34415C00378E78 /* LanternDemoHelper.xcdatamodeld in Sources */,
+				841CE7A01A34415C00378E78 /* AppDelegate.m in Sources */,
+				841CE7A61A34415C00378E78 /* ViewController.m in Sources */,
+				841CE79D1A34415C00378E78 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841CE7AF1A34415C00378E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841CE7BA1A34415D00378E78 /* LanternDemoHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841CE7B51A34415D00378E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841CE7961A34415B00378E78 /* LanternDemoHelper */;
+			targetProxy = 841CE7B41A34415D00378E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841CE7A71A34415C00378E78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841CE7A81A34415C00378E78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841CE7AC1A34415C00378E78 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841CE7AD1A34415C00378E78 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841CE7BB1A34415D00378E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		841CE7BC1A34415D00378E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841CE7BE1A34415D00378E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LanternDemoHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		841CE7BF1A34415D00378E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LanternDemoHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		841CE7C11A34415D00378E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LanternDemoHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanternDemoHelper.app/LanternDemoHelper";
+			};
+			name = Debug;
+		};
+		841CE7C21A34415D00378E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LanternDemoHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LanternDemoHelper.app/LanternDemoHelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841CE7921A34415A00378E78 /* Build configuration list for PBXProject "LanternDemoHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841CE7BB1A34415D00378E78 /* Debug */,
+				841CE7BC1A34415D00378E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841CE7BD1A34415D00378E78 /* Build configuration list for PBXNativeTarget "LanternDemoHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841CE7BE1A34415D00378E78 /* Debug */,
+				841CE7BF1A34415D00378E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		841CE7C01A34415D00378E78 /* Build configuration list for PBXNativeTarget "LanternDemoHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841CE7C11A34415D00378E78 /* Debug */,
+				841CE7C21A34415D00378E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		841CE7A11A34415C00378E78 /* LanternDemoHelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				841CE7A21A34415C00378E78 /* LanternDemoHelper.xcdatamodel */,
+			);
+			currentVersion = 841CE7A21A34415C00378E78 /* LanternDemoHelper.xcdatamodel */;
+			path = LanternDemoHelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 841CE78F1A34415A00378E78 /* Project object */;
+}
