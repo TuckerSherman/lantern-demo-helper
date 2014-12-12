@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
+@property (strong,nonatomic) CLLocationManager* locationManager;
 
 @end
 
@@ -17,7 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    if (self.locationManager == nil){
+        self.locationManager = [[CLLocationManager alloc]init];
+    }
+//    self.locationManager.delegate = 
+    
+    
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,77 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ayg-Ze-nmD">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="NVL-G5-jkB">
+                                        <rect key="frame" x="0.0" y="0.0" width="1500" height="1500"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="X7R-BQ-mSY"/>
+                                            <constraint firstAttribute="width" constant="1500" id="ie2-AF-8VA"/>
+                                        </constraints>
+                                    </imageView>
+                                    <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NZh-si-wY8">
+                                        <rect key="frame" x="725" y="500" width="51" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="SCf-HH-pCc"/>
+                                            <constraint firstAttribute="width" constant="49" id="ZoP-gj-Tqo"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="kitchenSwitchFlipped:" destination="vXZ-lx-hvc" eventType="valueChanged" id="LTY-bN-YfG"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fVK-nw-DEK">
+                                        <rect key="frame" x="850" y="900" width="51" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="4cp-Vz-DTe"/>
+                                            <constraint firstAttribute="width" constant="49" id="DR0-L9-5eK"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="kitchenSwitchFlipped:" destination="vXZ-lx-hvc" eventType="valueChanged" id="k1g-XC-2In"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aTV-13-niU">
+                                        <rect key="frame" x="610" y="810" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="kitchenSwitchFlipped:" destination="vXZ-lx-hvc" eventType="valueChanged" id="bAZ-vu-2fg"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="NVL-G5-jkB" secondAttribute="bottom" id="LZb-w0-Zce"/>
+                                    <constraint firstItem="NVL-G5-jkB" firstAttribute="top" secondItem="ayg-Ze-nmD" secondAttribute="top" id="Qlx-Oc-ee6"/>
+                                    <constraint firstItem="fVK-nw-DEK" firstAttribute="top" secondItem="ayg-Ze-nmD" secondAttribute="top" constant="900" id="UXU-gs-iwW"/>
+                                    <constraint firstItem="aTV-13-niU" firstAttribute="leading" secondItem="ayg-Ze-nmD" secondAttribute="leading" constant="610" id="UtH-Qb-owk"/>
+                                    <constraint firstItem="fVK-nw-DEK" firstAttribute="leading" secondItem="ayg-Ze-nmD" secondAttribute="leading" constant="850" id="Xcd-lJ-YiW"/>
+                                    <constraint firstAttribute="trailing" secondItem="NVL-G5-jkB" secondAttribute="trailing" id="awd-sc-EBc"/>
+                                    <constraint firstItem="NZh-si-wY8" firstAttribute="leading" secondItem="ayg-Ze-nmD" secondAttribute="leading" constant="725" id="gPE-dy-TPi"/>
+                                    <constraint firstItem="NVL-G5-jkB" firstAttribute="leading" secondItem="ayg-Ze-nmD" secondAttribute="leading" id="l77-Yc-NlJ"/>
+                                    <constraint firstItem="NZh-si-wY8" firstAttribute="top" secondItem="ayg-Ze-nmD" secondAttribute="top" constant="500" id="rat-Cy-17i"/>
+                                    <constraint firstItem="aTV-13-niU" firstAttribute="top" secondItem="ayg-Ze-nmD" secondAttribute="top" constant="810" id="zWg-Of-tXe"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ayg-Ze-nmD" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="LPh-0e-S31"/>
+                            <constraint firstAttribute="trailing" secondItem="ayg-Ze-nmD" secondAttribute="trailing" id="Yzg-T0-s9m"/>
+                            <constraint firstItem="ayg-Ze-nmD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="ahg-FZ-yGN"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ayg-Ze-nmD" secondAttribute="bottom" id="xJy-yo-FNz"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="acadSwitch" destination="aTV-13-niU" id="mFg-Gp-mOU"/>
+                        <outlet property="kitchenSwitch" destination="NZh-si-wY8" id="sM0-DS-PIF"/>
+                        <outlet property="labSwitch" destination="fVK-nw-DEK" id="gGD-1n-A04"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="1500" height="1500"/>
+    </resources>
 </document>
